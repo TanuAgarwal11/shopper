@@ -1,0 +1,22 @@
+.breadcrum {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #5c5c5c;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 30px 170px;
+    text-transform: capitalize;
+}
+
+/* Adjusting the arrow icons */
+.breadcrum img {
+    width: 10px; /* Small arrows look more professional */
+    height: 10px;
+}
+
+/* Optional: Make the current product name stand out less or more */
+.breadcrum :last-child {
+    /* If you want the product name at the end to be slightly bolder or different color */
+    color: #1c1c1c;
+}
